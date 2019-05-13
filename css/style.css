@@ -1,0 +1,36 @@
+h1{
+font-size: 35px;
+color: #555;
+font-weight: bold;
+}
+h3{
+font-size: 24px;
+color: #333;
+font-weight: bold;
+}
+#team img{
+margin-top: -50px;
+}
+#team i{
+font-size: 25px;
+color: #555;
+}
+#team p{
+font-weight: 500;
+}
+#team .card{
+border-radius: 0;
+box-shadow: 5px 5px 15px #e74c3;
+transition:all 0.3s ease-in;
+
+}
+#team .card:hover {
+background:#424242;
+color: #fff; 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+border-radius: 5px;
+transform: scale(1.1);
+}
+#team .card:hover h3,#team .card:hover i{
+color:#fff; 
+}
